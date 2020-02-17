@@ -1,0 +1,30 @@
+id,Growth_type,Cultivar,Common_N,Scientific_N,Wiki,Genbank,image,link
+0,Cool-season grasses,Bluegrass,Kentucky bluegrass,Poa pratensis,https://en.wikipedia.org/wiki/Poa_pratensis,None,Poa_pratensis,
+1,Cool-season grasses,Bluegrass,Rough bluegrass,Poa trivialis,https://en.wikipedia.org/wiki/Poa_trivialis,None,Poa_trivialis,
+2,Cool-season grasses,Bluegrass,Annual bluegrass,Poa annua,https://en.wikipedia.org/wiki/Poa_annua,None,Poa_annua,
+3,Cool-season grasses,Bluegrass,Canada bluegrass,Poa compressa,https://en.wikipedia.org/wiki/Poa_compressa,None,Poa_compressa,
+4,Cool-season grasses,Bentgrass,Creeping bentgrass,Agrostis stolonifera / Agrostis palustris,https://en.wikipedia.org/wiki/Agrostis_stolonifera,NC_008591.1,Agrostis_stolonifera,https://www.ncbi.nlm.nih.gov/nuccore/NC_008591.1?report=fasta
+5,Cool-season grasses,Bentgrass,Colonial bentgrass,Agrostis capillaris,https://en.wikipedia.org/wiki/Agrostis_capillaris,None,Agrostis_capillaris,
+6,Cool-season grasses,Bentgrass,Velvet bentgrass,Agrostis canina,https://en.wikipedia.org/wiki/Agrostis_canina,None,Agrostis_canina,
+7,Cool-season grasses,Bentgrass,Red top,Agrostis gigantea,https://en.wikipedia.org/wiki/Agrostis_gigantea,MF460976.1,Agrostis_gigantea,https://www.ncbi.nlm.nih.gov/nuccore/MF460976.1?report=fasta
+8,Cool-season grasses,Ryegrass,perennial ryegrass,Lolium perenne,https://en.wikipedia.org/wiki/Lolium_perenne,NC_009950.1,Lolium_perenne,https://www.ncbi.nlm.nih.gov/nuccore/NC_009950.1?report=fasta
+9,Cool-season grasses,Ryegrass,Italian ryegrass,Lolium multiflorum,https://en.wikipedia.org/wiki/Lolium_multiflorum,None,Lolium_multiflorum,
+10,Cool-season grasses,Fescue,Tall fescue,Festuca arundinacea,https://en.wikipedia.org/wiki/Festuca_arundinacea,NC_011713.2,Festuca_arundinacea,https://www.ncbi.nlm.nih.gov/nuccore/NC_011713.2?report=fasta
+11,Cool-season grasses,Fescue,Turf type tall fescue,None,None,None,noimage,
+12,Cool-season grasses,Fescue,Creeping red fescue,Festuca rubra,https://en.wikipedia.org/wiki/Festuca_rubra,None,Festuca_rubra,
+13,Cool-season grasses,Fescue,Chewings fescue,Festuca rubra subsp.Commutata,https://en.wikipedia.org/wiki/Festuca_rubra_subsp._commutata,None,noimage,
+14,Cool-season grasses,Fescue,Hard fescue,Festuca brevipila,https://en.wikipedia.org/wiki/Festuca_brevipila,None,Festuca_brevipila,
+15,Cool-season grasses,Fescue,Sheep fescue,Festuca ovina,https://en.wikipedia.org/wiki/Festuca_ovina,None,Festuca_ovina,
+16,Warm-season grasses,Bermudagrass,Common Bermudagrass,Cynodon dactylon,https://en.wikipedia.org/wiki/Cynodon_dactylon,KY024482.1,Cynodon_dactylon,https://www.ncbi.nlm.nih.gov/nuccore/KY024482.1?report=fasta
+17,Warm-season grasses,Bermudagrass,Bermudagrass Hybrid,Cynodon Hybrids,None,None,noimage,
+18,Warm-season grasses,Zoysia grass,Zoysia japonica,Zoysia japonica,https://en.wikipedia.org/wiki/Zoysia_japonica,None,Zoysia_japonica,
+19,Warm-season grasses,Zoysia grass,Zoysia matrella,Zoysia matrella,https://en.wikipedia.org/wiki/Zoysia_matrella,AP014937.1,Zoysia_matrella,https://www.ncbi.nlm.nih.gov/nuccore/AP014937.1?report=fasta
+20,Warm-season grasses,Zoysia grass,Zoysia tenuifolia,Zoysia tenuifolia,https://en.wikipedia.org/wiki/Zoysia_tenuifolia,None,Zoysia_tenuifolia,
+21,Warm-season grasses,Zoysia grass,Zoysia sinica,Zoysia sinica,None,None,noimage,
+22,Warm-season grasses,Zoysia grass,Zoysia macrostachya,Zoysia macrostachya,None,None,noimage,
+23,Warm-season grasses,Zoysia grass,Zoyisa Koreana,Zoysia koreana,None,None,noimage,
+24,Warm-season grasses,Zoysia grass,Zoysia'Emerald',Zoysia'Emerald',https://en.wikipedia.org/wiki/Zoysia_%27Emerald%27,None,Zoysia_Emerald,
+25,Warm-season grasses,Buffalo grass,Buffalo grass,Bouteloua dactyloides,https://en.wikipedia.org/wiki/Bouteloua_dactyloides,None,Bouteloua_dactyloides,
+26,Warm-season grasses,Bahia grass,Bahia grass,Paspalum notatum,https://en.wikipedia.org/wiki/Paspalum_notatum,None,Paspalum_notatum,
+27,Warm-season grasses,Centipede grass,Centipede grass,Eremochloa ophiuroides,https://en.wikipedia.org/wiki/Eremochloa_ophiuroides,KY432809.1,Eremochloa_ophiuroides,https://www.ncbi.nlm.nih.gov/nuccore/KY432809.1?report=fasta
+28,Warm-season grasses,St. Augustine grass,St. Augustine grass,Stenotaphrum secundatum,https://en.wikipedia.org/wiki/St._Augustine_grass,KY432796.1,St_Augustine_grass,https://www.ncbi.nlm.nih.gov/nuccore/KY432796.1?report=fasta

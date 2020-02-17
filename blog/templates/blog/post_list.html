@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+{% load static %}
+{% load semanticui %}
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="static/semantic/semantic.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+	<script src="static/semantic/semantic.js"></script>
+
+	<title></title>
+</head>
+<body>
+
+
+	<div class="ui grid" style="height: 50px;"></div>
+
+	<div class="ui grid">
+		<div class="two wide column"></div>
+
+		<div class="ten wide column">
+			<h1>Grass DB</h1>
+		</div>
+	
+	</div>
+	
+	<div class="ui grid">
+		<div class="two wide column"></div>
+
+		<div class="three wide column">
+			<div class="ui container">
+				<div class="ui search">
+					<form method="GET" action="">
+						<input class="prompt" type="text" name="q" placeholder=" Search for...">
+							{% render_form form %}
+						<button class="mini ui button" style="margin-left: 5x">Search</button>
+					</form>
+				<div class="results"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="nine wide column"></div>
+
+		<div class="two wide column"></div>
+
+
+	</div>
+		
+	<div class="ui grid">
+		<div class="two wide column"></div>
+
+		<div class="three wide column">
+			<div class="ui container">
+				{% for post in post_data %}
+					<img class="ui fluid rounded image" src="/static/pictures/{{post.image}}.jpg" style="margin: 0px auto; display: block;">
+				{% endfor %}
+			</div>
+			<div class="ui container">
+
+				<table class="ui celled striped table" style="margin-top: 5px;">
+					<tbody>
+						<tr>
+							<td class="collapsing" style="width: 120px">
+								Common Name
+							</td>
+							<td>
+								{% for post in post_data %}
+									{{post.Common_N}}
+								{% endfor %}
+							</td>
+						</tr>
+						<tr>
+							<td>Sciencific Name</td>
+							<td>
+								{% for post in post_data %}
+									{{post.Scientific_N}}
+								{% endfor %}
+							</td>
+						</tr>
+						<tr>
+							<td>Cultivar</td>
+							<td>
+								{% for post in post_data %}
+									{{post.Cultivar}}
+								{% endfor %}
+								</td>
+						</tr>
+						<tr>
+							<td>Growth Type</td>
+							<td>
+								{% for post in post_data %}
+									{{post.Growth_type}}
+								{% endfor %}
+							</td>
+						</tr>
+						<tr>
+							<td>Genbank</td>
+							<td>
+								{% for post in post_data %}
+									<a href="{{post.link}}" target="blank">{{post.Genbank}}</a>
+									
+								{% endfor %}
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+		<div class="nine wide column"></div>
+
+		<div class="two wide column"></div>
+	</div>
+
+
+<!--javascript -->	
+	<script type="text/javascript">
+		
+		var content = [
+			{% for x in Posts %}
+			{
+				title: '{{x.Common_N}}',
+				description: '{{x.Scientific_N}}'
+			},
+			{% endfor %}
+
+		];
+
+			$('.ui.search').search({
+				source: content,
+				searchFullText: false
+			});
+	</script>
+
+</body>
+</html>
